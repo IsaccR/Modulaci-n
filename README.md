@@ -3,9 +3,7 @@ paquete MODULACIÓN;
 importar java.util.Random; importar java.util.Scanner;
 
 clase pública principal {
-
 private static Scanner scanner = new Scanner(System.in);
-
 
 public static void main(String[] args) {
 	int opcion;
@@ -265,5 +263,4 @@ private static void generarTabla(int num) {
     for (int i = 1; i <= 10; i++) {
         System.out.println(num + " x " + i + " = " + (num * i));
     }
-}
 }
