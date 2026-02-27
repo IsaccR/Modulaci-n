@@ -19,6 +19,7 @@ public static void main(String[] args) {
 
 
 // MÉTODOS DE MENÚ Y EJECUCIÓN
+
 private static void mostrarMenu() {
     System.out.println("\n" + "=".repeat(40));
     System.out.println("MENU PRINCIPAL DE EJERCICIOS");
@@ -56,6 +57,7 @@ private static void ejecutarOpcion(int opcion) {
 }
 
 // MÉTODOS DE VALIDACIÓN (try-catch)
+
 
 private static int leerEntero(String mensaje) {
     while (true) {
