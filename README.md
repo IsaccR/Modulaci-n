@@ -1,6 +1,3 @@
-Modulación
-_______
-
 paquete MODULACIÓN;
 
 importar java.util.Random; importar java.util.Scanner;
